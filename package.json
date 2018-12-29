@@ -1,0 +1,24 @@
+{
+  "name": "ci-example",
+  "version": "1.0.0",
+  "description": "CI sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "./node_modules/eslint/bin/eslint.js ./src/eslint-sample.js",
+    "prettier": "./node_modules/prettier/bin-prettier.js ./src/prettier-sample.js --write"
+  },
+  "keywords": [
+    "ci",
+    "test"
+  ],
+  "author": "Ran Bar-Zik",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "prettier": "1.15.3"
+  }
+}
